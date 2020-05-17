@@ -16,7 +16,7 @@ module.exports = () => {
   })
 
   handlerList.forEach((item) => {
-    console.log(chalk.blue(`${item.name}            ${item.url}`))
+    console.log(chalk.cyan(`${item.name}            ${item.url}`))
   })
 
   process.exit()

@@ -1,6 +1,6 @@
 {
   "name": "vue-cool-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-cool-cli,一款轻量级实用脚手架",
   "main": "bin",
   "bin": {

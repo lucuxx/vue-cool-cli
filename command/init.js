@@ -23,7 +23,7 @@ module.exports = () => {
 
     // git命令，远程拉取项目并自定义项目名
     let cmdStr = `git clone ${gitUrl} ${projectName} && cd ${projectName} && git checkout ${branch}`
-    let spinner = ora(chalk.blue('开始构建... \n'))
+    let spinner = ora(chalk.cyan('开始构建... \n'))
 
     spinner.start()
 
@@ -37,7 +37,7 @@ module.exports = () => {
       }
       spinner.succeed()
       console.log(chalk.green('\n √ 构建成功!'))
-      console.log(chalk.cyan(`\n cd ${projectName} && npm install \n`))
+      console.log(chalk.white(`\n cd ${projectName} && npm install \n`))
       process.exit()
     })
   })
