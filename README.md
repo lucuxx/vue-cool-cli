@@ -4,7 +4,7 @@
 
 ### Quick Start
 
-> co create <projectName>
+> co create `<`projectName`>`
 
 ### More
 
@@ -12,14 +12,16 @@
 
 ### Help
 
-> Options:
-> -V, --version output the version number
-> -h, --help display help for command
+## Options:
 
-> Commands:
-> add|a Add a new template
-> list|l List all the templates
-> init|i Generate a new project
-> delete|d Delete a template
-> create|d <projectName> Delete a template
-> help [command] display help for command
+-V, --version output the version number
+-h, --help display help for command
+
+## Commands:
+
+add|a Add a new template
+list|l List all the templates
+init|i Generate a new project
+delete|d Delete a template
+create|d <projectName> Delete a template
+help [command] display help for command
