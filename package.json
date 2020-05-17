@@ -1,0 +1,22 @@
+{
+  "name": "vue-cool-cli",
+  "version": "1.0.0",
+  "description": "vue-cool-cli,一款轻量级实用脚手架",
+  "main": "bin",
+  "bin": {
+    "co": "bin/cool-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lucux",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "ora": "^4.0.4"
+  }
+}
